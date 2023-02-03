@@ -48,14 +48,14 @@ function App() {
   };
 
   return (
-    <>
+    <div>
       <h1>My Agora States!</h1>
       <Form addDiscussion={addDiscussion}></Form>
       <Discussions
         discussions={discussions}
         deleteDiscussion={deleteDiscussion}
       ></Discussions>
-    </>
+    </div>
   );
 }
 
